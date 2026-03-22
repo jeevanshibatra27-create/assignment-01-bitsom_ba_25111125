@@ -1,6 +1,6 @@
 ## Anomaly Analysis
 
-### Insert Anomaly
+## Insert Anomaly
 In the current table structure, a new product cannot be added unless an order exists for that product.
 
 Example from the dataset:
@@ -8,7 +8,7 @@ Columns such as product_id, product_name, category, and unit_price only appear w
 
 This creates an Insert Anomaly because product information depends on order data.
 
-### Update Anomaly
+## Update Anomaly
 Customer information is repeated in multiple rows for every order.
 
 Example from the dataset:
@@ -16,7 +16,7 @@ Columns such as customer_id, customer_name, customer_email, and customer_city ap
 
 This creates an Update Anomaly.
 
-### Delete Anomaly
+## Delete Anomaly
 Product information is stored together with order information.
 
 Example from the dataset:
